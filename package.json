@@ -26,11 +26,14 @@
     ]
   },
   "devDependencies": {
+    "@wojtekmaj/enzyme-adapter-react-17": "0.6.3",
+    "enzyme": "3.11.0",
     "eslint": "7.32.0",
     "eslint-config-airbnb": "18.2.1",
     "eslint-config-prettier": "8.3.0",
     "eslint-plugin-prettier": "3.4.0",
     "install-peerdeps": "3.0.3",
-    "prettier": "2.3.2"
+    "prettier": "2.3.2",
+    "react-test-renderer": "17.0.2"
   }
 }
