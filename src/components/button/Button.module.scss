@@ -1,0 +1,33 @@
+@import '../../sass/config';
+
+.md {
+  width: rem(160);
+  height: rem(48);
+}
+
+.primary {
+  color: $white;
+  background-color: $brick;
+  &:hover {
+    background-color: $lighterBrick;
+    transition: ease-in 0.03s;
+  }
+}
+
+.outline {
+  color: $black;
+  background-color: $white;
+  &:hover {
+    background-color: $black;
+    transition: ease-in 0.03s;
+  }
+}
+
+.link {
+  color: $ligtherBlack;
+  background-color: transparent;
+  &:hover {
+    background-color: $lighterBrick;
+    transition: ease-in 0.03s;
+  }
+}
