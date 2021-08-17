@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button should renders correctly 1`] = `
+<button
+  className="primary md"
+  onClick={[Function]}
+  size="md"
+  type="button"
+  variant="primary"
+/>
+`;
