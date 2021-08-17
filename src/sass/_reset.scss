@@ -5,8 +5,8 @@
   box-sizing: border-box;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
+button {
+  border: none;
+  overflow: visible;
+  font: inherit;
 }
