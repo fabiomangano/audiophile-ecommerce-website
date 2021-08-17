@@ -1,8 +1,14 @@
 import React from 'react';
+import { create } from 'react-test-renderer';
 import { mount, shallow } from 'enzyme';
 import Button from './Button';
 
 describe('Button', () => {
+  it('should renders correctly', () => {
+    const tree = create(<Button />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
   it('should output a button', () => {
     const wrapper = mount(<Button>Title</Button>);
     expect(wrapper.find('button').length).toEqual(1);
