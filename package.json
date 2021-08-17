@@ -34,6 +34,7 @@
     "eslint-plugin-prettier": "3.4.0",
     "install-peerdeps": "3.0.3",
     "prettier": "2.3.2",
-    "react-test-renderer": "17.0.2"
+    "react-test-renderer": "17.0.2",
+    "sass": "^1.38.0"
   }
 }
