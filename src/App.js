@@ -1,11 +1,10 @@
 import React from 'react';
 import './App.scss';
-import Button from './components/button/Button';
 
 function App() {
   return (
     <div>
-      <Button variant="link">Product &rsaquo;</Button>
+      <h1>HELLO DARKENESS MY OLD FRIEND</h1>
     </div>
   );
 }
