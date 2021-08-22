@@ -1,4 +1,3 @@
-/* eslint-disable react/button-has-type */
 import React from 'react';
 import PropTypes from 'prop-types';
 import cn from 'classnames';
@@ -21,7 +20,7 @@ const Button = ({ children, type, onClick, variant, size }) => {
 Button.defaultProps = {
   type: 'button',
   children: null,
-  onClick: () => {},
+  onClick: undefined,
   variant: 'primary',
   size: 'md',
 };

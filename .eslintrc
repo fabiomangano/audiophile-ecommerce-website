@@ -8,6 +8,7 @@
     "prettier/prettier": ["error"],
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
+    "import/no-named-as-default": 0,
     "arrow-body-style": "off",
     "prefer-arrow-callback": "off"
   }

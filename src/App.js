@@ -1,10 +1,14 @@
 import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
 import './App.scss';
+import PageLayout from './layouts/PageLayout';
 
 function App() {
   return (
     <div>
-      <h1>HELLO DARKENESS MY OLD FRIEND</h1>
+      <Router>
+        <PageLayout />
+      </Router>
     </div>
   );
 }
