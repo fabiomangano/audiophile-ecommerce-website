@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon should renders corretly 1`] = `
+<svg
+  height={24}
+  viewBox="0 0 24 24"
+  width={24}
+>
+  <g
+    transform="rotate(0, 12, 12)"
+  >
+    <path
+      d="some/path/to/svg"
+      fill="currentColor"
+    />
+  </g>
+</svg>
+`;

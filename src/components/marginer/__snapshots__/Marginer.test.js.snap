@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Marginer should render a vertical marginer 1`] = `
+Object {
+  "children": null,
+  "props": Object {
+    "style": Object {
+      "display": "flex",
+      "width": Any<String>,
+    },
+  },
+  "type": "span",
+}
+`;
+
+exports[`Marginer should render an horizontal marginer 1`] = `
+Object {
+  "children": null,
+  "props": Object {
+    "style": Object {
+      "display": "flex",
+      "height": Any<String>,
+    },
+  },
+  "type": "span",
+}
+`;

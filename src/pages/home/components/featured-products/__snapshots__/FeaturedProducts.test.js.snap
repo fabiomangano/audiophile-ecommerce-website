@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FeauturedProducts should renders correctly 1`] = `
+Array [
+  <div
+    className="main"
+  />,
+  <span
+    style={
+      Object {
+        "display": "flex",
+        "height": "2.2rem",
+      }
+    }
+  />,
+  <div
+    className="flat"
+  />,
+  <span
+    style={
+      Object {
+        "display": "flex",
+        "height": "2.2rem",
+      }
+    }
+  />,
+  <div
+    className="splitted"
+  >
+    <div
+      className="splitted_top"
+    />
+    <div
+      className="splitted_bottom"
+    />
+  </div>,
+]
+`;

@@ -1,0 +1,73 @@
+@import '../../scss/config';
+
+footer {
+  @include flexbox($direction: column, $align: center, $justify: center);
+  width: 100%;
+  background-color: $ligtherBlack;
+}
+
+.row {
+  border: 3px solid $brick;
+  width: rem(120);
+  @include breakpoint-up(large) {
+    text-align: left;
+  }
+}
+
+.container {
+  @include flexbox($direction: column, $align: center, $justify: center);
+  width: 100%;
+  height: rem(654);
+  max-width: rem(1440);
+  padding: 0 rem(24);
+}
+
+.about,
+.copyright {
+  text-align: center;
+  color: $strongerGrey;
+}
+
+.social_links_copyright,
+.logo_navlinks {
+  @include flexbox($direction: column, $align: center, $justify: center);
+  width: 100%;
+}
+
+@include breakpoint-up(medium) {
+  .container {
+    height: rem(400);
+    align-items: flex-start;
+    padding: 0 rem(40);
+  }
+  .text,
+  .about {
+    text-align: left;
+  }
+
+  .logo_navlinks {
+    align-items: flex-start;
+  }
+
+  .social_links_copyright {
+    @include flexbox($direction: row-reverse, $justify: space-between);
+  }
+}
+
+@include breakpoint-up(large) {
+  .container {
+    height: rem(365);
+    align-items: flex-start;
+  }
+  .text,
+  .about {
+    text-align: left;
+  }
+  .logo_navlinks {
+    @include flexbox($direction: row, $justify: space-between);
+  }
+
+  .social_links_copyright {
+    @include flexbox($direction: row-reverse, $justify: space-between);
+  }
+}

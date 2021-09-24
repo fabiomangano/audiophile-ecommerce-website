@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CategoryCard should correctly render 1`] = `
+<div
+  className="container"
+>
+  <img
+    alt="some-category"
+    className="image"
+    src="some-url"
+  />
+  <h6>
+    some-category
+  </h6>
+  <button
+    className="link md"
+    onClick={[MockFunction]}
+    size="md"
+    type="button"
+    variant="link"
+  >
+    SHOP 
+    &gt;
+  </button>
+</div>
+`;

@@ -1,3 +1,4 @@
+/* eslint-disable react/button-has-type */
 import React from 'react';
 import PropTypes from 'prop-types';
 import cn from 'classnames';
@@ -26,7 +27,7 @@ Button.defaultProps = {
 };
 
 Button.propTypes = {
-  variant: PropTypes.oneOf(['primary', 'outline', 'link']),
+  variant: PropTypes.oneOf(['primary', 'secondary', 'outline', 'link']),
   children: PropTypes.node,
   type: PropTypes.oneOf(['button', 'submit', 'reset']),
   onClick: PropTypes.func,

@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navlinks should render correctly 1`] = `
+<div
+  className="container"
+>
+  <ul
+    className="links_horizontal"
+  >
+    <li>
+      <Link
+        className="link"
+        to="/"
+      >
+        Home
+      </Link>
+    </li>
+    <li>
+      <Link
+        className="link"
+        to="/category/headpones"
+      >
+        Headpones
+      </Link>
+    </li>
+    <li>
+      <Link
+        className="link"
+        to="/category/speakers"
+      >
+        Speakers
+      </Link>
+    </li>
+    <li>
+      <Link
+        className="link"
+        to="/category/earpones"
+      >
+        Earpones
+      </Link>
+    </li>
+  </ul>
+</div>
+`;

@@ -1,7 +1,6 @@
 @import '../../scss/config';
 
 .container {
+  @include flexbox($justify: space-between);
   width: rem(100);
-  display: flex;
-  justify-content: space-between;
 }

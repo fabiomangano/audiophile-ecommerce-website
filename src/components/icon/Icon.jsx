@@ -21,17 +21,17 @@ const Icon = ({ path, color, size, direction }) => {
   );
 };
 
+Icon.defaultProps = {
+  size: 24,
+  color: 'currentColor',
+  direction: DIRECTIONS.TOP,
+};
+
 Icon.propTypes = {
   path: PropTypes.string.isRequired,
   color: PropTypes.string,
   size: PropTypes.number,
   direction: PropTypes.number,
-};
-
-Icon.defaultProps = {
-  size: 24,
-  color: 'currentColor',
-  direction: DIRECTIONS.TOP,
 };
 
 export default Icon;

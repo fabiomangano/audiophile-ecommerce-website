@@ -1,0 +1,41 @@
+@import '../../scss/config';
+
+.container {
+  position: relative;
+  @include flexbox($align: center, $justify: center);
+  background-color: $ligtherBlack;
+  width: 100%;
+}
+
+nav {
+  @include flexbox($align: center, $justify: space-between);
+  border-bottom: 2px solid $strongerGrey;
+  width: rem(1440);
+  padding: rem(33) rem(15);
+
+  @include breakpoint-up(medium) {
+    nav {
+      padding: rem(33) rem(40);
+    }
+  }
+}
+
+.display {
+  position: absolute;
+  @include flexbox($justify: center);
+  background-color: $ligtherBlack;
+  padding: rem(20) 0;
+  top: 6.6rem;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+}
+
+.hide {
+  display: none;
+}
+
+.center {
+  width: rem(143);
+  text-align: center;
+}

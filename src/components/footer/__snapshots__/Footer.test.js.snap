@@ -1,0 +1,158 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer should render correctly when vw is large or more 1`] = `
+<footer>
+  <div
+    className="row"
+  />
+  <div
+    className="container"
+  >
+    <div
+      className="logo_navlinks"
+    >
+      <Link
+        to="/"
+      >
+        <ForwardRef(SvgLogo) />
+      </Link>
+      <NavLinks
+        direction="vertical"
+      />
+    </div>
+    <Marginer
+      direction="horizontal"
+      margin={3}
+    />
+    <p
+      className="about"
+    >
+      Audiophile is an all in one stop to fulfill your audio needs. We're a small team of music lovers and sound specialists who are devoted to helping you get the most out of personal audio. Come and visit our demo facility - we’re open 7 days a week.
+    </p>
+    <Marginer
+      direction="horizontal"
+      margin={3}
+    />
+    <div
+      className="social_links_copyright"
+    >
+      <SocialLinks />
+      <Marginer
+        direction="horizontal"
+        margin={3}
+      />
+      <p
+        className="copyright"
+      >
+        Copyright 2021. All Rights Reserved
+      </p>
+    </div>
+  </div>
+</footer>
+`;
+
+exports[`Footer should render correctly when vw is medium more 1`] = `
+<footer>
+  <div
+    className="row"
+  />
+  <div
+    className="container"
+  >
+    <div
+      className="logo_navlinks"
+    >
+      <Link
+        to="/"
+      >
+        <ForwardRef(SvgLogo) />
+      </Link>
+      <Marginer
+        direction="horizontal"
+        margin={3}
+      />
+      <NavLinks
+        direction="horizontal"
+      />
+    </div>
+    <Marginer
+      direction="horizontal"
+      margin={3}
+    />
+    <p
+      className="about"
+    >
+      Audiophile is an all in one stop to fulfill your audio needs. We're a small team of music lovers and sound specialists who are devoted to helping you get the most out of personal audio. Come and visit our demo facility - we’re open 7 days a week.
+    </p>
+    <Marginer
+      direction="horizontal"
+      margin={3}
+    />
+    <div
+      className="social_links_copyright"
+    >
+      <SocialLinks />
+      <p
+        className="copyright"
+      >
+        Copyright 2021. All Rights Reserved
+      </p>
+    </div>
+  </div>
+</footer>
+`;
+
+exports[`Footer should render correctly when vw is small or less 1`] = `
+<footer>
+  <div
+    className="row"
+  />
+  <div
+    className="container"
+  >
+    <div
+      className="logo_navlinks"
+    >
+      <Link
+        to="/"
+      >
+        <ForwardRef(SvgLogo) />
+      </Link>
+      <Marginer
+        direction="horizontal"
+        margin={3}
+      />
+      <NavLinks
+        direction="vertical"
+      />
+    </div>
+    <Marginer
+      direction="horizontal"
+      margin={3}
+    />
+    <p
+      className="about"
+    >
+      Audiophile is an all in one stop to fulfill your audio needs. We're a small team of music lovers and sound specialists who are devoted to helping you get the most out of personal audio. Come and visit our demo facility - we’re open 7 days a week.
+    </p>
+    <Marginer
+      direction="horizontal"
+      margin={3}
+    />
+    <div
+      className="social_links_copyright"
+    >
+      <SocialLinks />
+      <Marginer
+        direction="horizontal"
+        margin={3}
+      />
+      <p
+        className="copyright"
+      >
+        Copyright 2021. All Rights Reserved
+      </p>
+    </div>
+  </div>
+</footer>
+`;

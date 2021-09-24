@@ -1,0 +1,52 @@
+@import '../../../../scss/config';
+
+.container {
+  @include flexbox($direction: column, $align: center);
+  max-height: rem(724);
+  width: 100%;
+  color: $strongerGrey;
+  @include breakpoint-up(large) {
+    @include flexbox($direction: row, $justify: center);
+  }
+  &_reverse {
+    @include breakpoint-up(large) {
+      color: $strongerGrey;
+      @include flexbox(
+        $direction: row-reverse,
+        $justify: center,
+        $align: center
+      );
+    }
+  }
+}
+
+.content {
+  text-align: center;
+  width: rem(327);
+  @include breakpoint-up(medium) {
+    width: rem(689);
+  }
+  @include breakpoint-up(large) {
+    @include flexbox($direction: column, $align: flex-start);
+    text-align: left;
+    width: rem(445);
+    margin: 0 rem(125);
+  }
+}
+
+.title {
+  text-align: center;
+  text-transform: uppercase;
+  color: $ligtherBlack;
+  @include breakpoint-up(large) {
+    text-align: left;
+  }
+}
+
+.image {
+  height: rem(352);
+  width: auto;
+  @include breakpoint-up(large) {
+    height: rem(560);
+  }
+}

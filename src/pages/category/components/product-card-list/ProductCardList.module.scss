@@ -1,0 +1,12 @@
+@import '../../../../scss/config';
+
+.container {
+  display: grid;
+  gap: 4rem;
+  justify-content: center;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.loading {
+  min-height: rem(1826);
+}

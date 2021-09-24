@@ -10,7 +10,7 @@ describe('Button', () => {
   });
 
   it('should output a button', () => {
-    const wrapper = mount(<Button>Title</Button>);
+    const wrapper = shallow(<Button>Title</Button>);
     expect(wrapper.find('button').length).toEqual(1);
   });
 

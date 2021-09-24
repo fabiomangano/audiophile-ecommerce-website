@@ -1,0 +1,32 @@
+@import '../../scss/config';
+
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: $ligtherBlack;
+}
+
+.links_horizontal {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  column-gap: rem(36);
+  text-align: center;
+}
+
+.links_vertical {
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  row-gap: rem(16);
+  text-align: center;
+}
+
+.link {
+  font-weight: $semi-bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.3s all;
+  color: $white;
+  &:hover {
+    color: $lighterBrick;
+  }
+}

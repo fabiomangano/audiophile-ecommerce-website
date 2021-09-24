@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home should renders correctly 1`] = `
+<PageLayout
+  hero={<Memo(Connect(NewProduct)) />}
+>
+  <Container
+    component="div"
+    fluid={false}
+    lg={false}
+    md={false}
+    sm={false}
+    style={Object {}}
+    xl={false}
+    xs={false}
+    xxl={false}
+  >
+    <Marginer
+      direction="horizontal"
+      margin={7.5}
+    />
+    <Row
+      align="normal"
+      component="div"
+      debug={false}
+      direction="row"
+      gutterWidth={null}
+      justify="start"
+      nogutter={false}
+      nowrap={false}
+      style={Object {}}
+    >
+      <Col
+        component="div"
+        debug={false}
+        lg={null}
+        md={4}
+        offset={Object {}}
+        pull={Object {}}
+        push={Object {}}
+        sm={null}
+        style={Object {}}
+        width={null}
+        xl={null}
+        xs={null}
+        xxl={null}
+      >
+        <CategoryCard
+          category="headphones"
+          url="../assets/shared/desktop/image-headphones.png"
+        />
+        <Marginer
+          direction="horizontal"
+          margin={4}
+        />
+      </Col>
+      <Col
+        component="div"
+        debug={false}
+        lg={null}
+        md={4}
+        offset={Object {}}
+        pull={Object {}}
+        push={Object {}}
+        sm={null}
+        style={Object {}}
+        width={null}
+        xl={null}
+        xs={null}
+        xxl={null}
+      >
+        <CategoryCard
+          category="speakers"
+          url="../assets/shared/desktop/image-speakers.png"
+        />
+        <Marginer
+          direction="horizontal"
+          margin={4}
+        />
+      </Col>
+      <Col
+        component="div"
+        debug={false}
+        lg={null}
+        md={4}
+        offset={Object {}}
+        pull={Object {}}
+        push={Object {}}
+        sm={null}
+        style={Object {}}
+        width={null}
+        xl={null}
+        xs={null}
+        xxl={null}
+      >
+        <CategoryCard
+          category="earphones"
+          url="../assets/shared/desktop/image-earphones.png"
+        />
+        <Marginer
+          direction="horizontal"
+          margin={4}
+        />
+      </Col>
+    </Row>
+    <Marginer
+      direction="horizontal"
+      margin={7.5}
+    />
+    <Memo(Connect(FeaturedProducts)) />
+    <Marginer
+      direction="horizontal"
+      margin={7.5}
+    />
+    <About />
+    <Marginer
+      direction="horizontal"
+      margin={10}
+    />
+  </Container>
+</PageLayout>
+`;

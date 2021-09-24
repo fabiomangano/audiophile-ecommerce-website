@@ -1,0 +1,5 @@
+{
+  "new-product": "http://localhost:3004/new-product",
+  "featured-products": "http://localhost:3004/featured-products",
+  "category": "http://localhost:3004/category"
+}

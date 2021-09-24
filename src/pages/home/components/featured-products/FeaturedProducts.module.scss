@@ -1,0 +1,101 @@
+@import '../../../../scss/config';
+
+.main {
+  min-height: rem(600);
+  background-color: $brick;
+  text-align: center;
+  color: $white;
+  border-radius: rem(10);
+  &_image {
+    height: rem(172);
+  }
+  @include breakpoint-up(large) {
+    @include flexbox($direction: row, $justify: space-evenly, $align: center);
+
+    &_content {
+      width: 50%;
+      @include flexbox($direction: column, $justify: flex-start);
+
+      h1 {
+        text-align: left;
+      }
+    }
+
+    &_image {
+      height: rem(450);
+      margin-top: rem(150);
+    }
+  }
+}
+
+.flat {
+  background-image: url(../../../../assets/home/mobile/image-speaker-zx7.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  @include flexbox($align: center, $justify: flex-start);
+  width: 100%;
+  height: rem(327);
+  color: $black;
+  border-radius: rem(10);
+
+  &_content {
+    @include flexbox($direction: column, $align: flex-start);
+    padding: 10%;
+  }
+}
+
+.splitted {
+  @include flexbox($direction: column, $align: center, $justify: center);
+  height: rem(424);
+
+  &_top {
+    background-image: url(../../../../assets/home/mobile/image-earphones-yx1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: rem(200);
+    width: 100%;
+    border-radius: rem(10);
+  }
+
+  &_bottom {
+    display: flex;
+    @include flexbox($direction: column, $align: flex-start, $justify: center);
+    padding: 0 10%;
+    background-color: #f5f5f5f5;
+    min-height: rem(200);
+    border-radius: rem(10);
+    width: 100%;
+  }
+
+  @include breakpoint-up(medium) {
+    flex-direction: row;
+    min-width: rem(340);
+    background-position: top right;
+
+    .splitted {
+      &_top {
+        min-height: rem(340);
+      }
+
+      &_bottom {
+        min-height: rem(340);
+      }
+    }
+  }
+
+  @include breakpoint-up(medium) {
+    .splitted {
+      &_top {
+        width: 50%;
+        height: rem(424);
+      }
+
+      &_bottom {
+        width: 50%;
+        height: rem(424);
+      }
+    }
+  }
+}

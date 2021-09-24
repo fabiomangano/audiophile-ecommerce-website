@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductCard should render correctly and display name, description, imageUrl of the given product 1`] = `
+<div
+  className="container"
+>
+  <img
+    alt="Product"
+    className="image"
+    src="some-image-url"
+  />
+  <span
+    style={
+      Object {
+        "display": "flex",
+        "height": "2rem",
+      }
+    }
+  />
+  <h2
+    style={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    product
+  </h2>
+  <span
+    style={
+      Object {
+        "display": "flex",
+        "height": "2rem",
+      }
+    }
+  />
+  <p
+    style={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    some-description
+  </p>
+  <span
+    style={
+      Object {
+        "display": "flex",
+        "height": "2rem",
+      }
+    }
+  />
+  <button
+    className="primary md"
+    onClick={[MockFunction]}
+    size="md"
+    type="button"
+    variant="primary"
+  >
+    SEE PRODUCT
+  </button>
+</div>
+`;
