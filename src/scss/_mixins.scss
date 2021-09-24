@@ -1,0 +1,32 @@
+$breakpoints-up: (
+  'xlarge': '1200px',
+  'large': '1024px',
+  'medium': '768px',
+  'small': '480px',
+);
+
+$breakpoints-down: (
+  'small': '480px',
+  'medium': '768px',
+  'large': '1024px',
+  'xlarge': '1200px',
+);
+
+@mixin breakpoint-up($size) {
+  @media (min-width: map-get($breakpoints-up, $size)) {
+    @content;
+  }
+}
+
+@mixin breakpoint-down($size) {
+  @media (max-width: map-get($breakpoints-down, $size)) {
+    @content;
+  }
+}
+
+@mixin flexbox($direction: row, $align: null, $justify: null) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+}

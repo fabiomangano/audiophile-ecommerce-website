@@ -26,6 +26,16 @@ $h1-font-sizes: (
 
 $h2-font-sizes: (
   null: (
+    rem(28),
+    rem(44),
+    rem(1.5),
+  ),
+  small: (
+    rem(28),
+    rem(44),
+    rem(1.5),
+  ),
+  medium: (
     rem(40),
     rem(44),
     rem(1.5),
